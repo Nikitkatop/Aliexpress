@@ -5,7 +5,7 @@ from django.contrib.auth import get_user_model
 User = get_user_model()
 
 
-class PostForm(forms.ModelForm):
+class RegistrationForm(forms.ModelForm):
 
     class Meta:
         model = User
